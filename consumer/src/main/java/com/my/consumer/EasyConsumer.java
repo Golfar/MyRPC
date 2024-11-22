@@ -2,7 +2,7 @@ package com.my.consumer;
 
 import com.my.common.model.User;
 import com.my.common.service.UserService;
-import com.my.easyrpc.proxy.ServiceProxyFactory;
+import com.my.corerpc.proxy.ServiceProxyFactory;
 
 /**
  * @author : golfar

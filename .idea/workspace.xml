@@ -5,30 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b727147b-c2c4-4461-bbc6-858658b05071" name="更改" comment="ji">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/my/common/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/my/common/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/my/consumer/EasyConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/my/consumer/UserServiceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-rpc/src/main/java/com/my/easyrpc/model/RpcRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-rpc/src/main/java/com/my/easyrpc/model/RpcResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-rpc/src/main/java/com/my/easyrpc/proxy/ServiceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-rpc/src/main/java/com/my/easyrpc/proxy/ServiceProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-rpc/src/main/java/com/my/easyrpc/registry/LocalRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-rpc/src/main/java/com/my/easyrpc/serializer/Serializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-rpc/src/main/java/com/my/easyrpc/serializer/impl/JdkSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-rpc/src/main/java/com/my/easyrpc/server/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-rpc/src/main/java/com/my/easyrpc/server/HttpServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-rpc/src/main/java/com/my/easyrpc/server/impl/VertxHttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/my/provider/EasyProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/my/provider/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/my/consumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-rpc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-rpc/src/main/java/com/my/corerpc/RpcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-rpc/src/main/java/com/my/corerpc/config/RpcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-rpc/src/main/java/com/my/corerpc/constant/RpcConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-rpc/src/main/java/com/my/corerpc/model/RpcRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-rpc/src/main/java/com/my/corerpc/model/RpcResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-rpc/src/main/java/com/my/corerpc/proxy/ServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-rpc/src/main/java/com/my/corerpc/proxy/ServiceProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-rpc/src/main/java/com/my/corerpc/registry/LocalRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-rpc/src/main/java/com/my/corerpc/serializer/Serializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-rpc/src/main/java/com/my/corerpc/serializer/impl/JdkSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-rpc/src/main/java/com/my/corerpc/server/HttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-rpc/src/main/java/com/my/corerpc/server/HttpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-rpc/src/main/java/com/my/corerpc/server/impl/VertxHttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-rpc/src/main/java/com/my/corerpc/utils/ConfigUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-rpc/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/my/provider/Provider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-rpc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy-rpc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/my/consumer/EasyConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/my/consumer/EasyConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/my/consumer/UserServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/my/consumer/UserServiceProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/my/provider/EasyProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/my/provider/EasyProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +68,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-11",
+    "last_opened_file_path": "C:/workspace4idea/MyRPC/core-rpc/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,7 +81,27 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.EasyConsumer">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace4idea\MyRPC\core-rpc\src\main\resources" />
+      <recent name="C:\workspace4idea\MyRPC\core-rpc\src\main\java\com\my\corerpc" />
+      <recent name="C:\workspace4idea\MyRPC\core-rpc\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.Provider">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.consumer.Consumer" />
+      <module name="consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EasyConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -106,10 +130,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Provider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.provider.Provider" />
+      <module name="provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.EasyConsumer" />
+        <item itemvalue="应用程序.Provider" />
         <item itemvalue="应用程序.EasyProvider" />
+        <item itemvalue="应用程序.Consumer" />
+        <item itemvalue="应用程序.EasyConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +165,7 @@
       <workItem from="1731582276029" duration="28000" />
       <workItem from="1731582330168" duration="96000" />
       <workItem from="1731582584144" duration="233000" />
+      <workItem from="1732265430586" duration="3864000" />
     </task>
     <task id="LOCAL-00001" summary="添加README">
       <option name="closed" value="true" />
